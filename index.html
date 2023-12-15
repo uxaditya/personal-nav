@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+  </head>
+  <body>
+    <div class="relative w-full h-[51px]">
+      <div
+        class="absolute w-full top-[0px] right-[0px] left-[0px] bg-colors-neutral-bg-1 shadow-[0px_24px_21px_rgba(45,_141,_255,_0.05)] flex flex-row items-center justify-start py-[5px] px-10 box-border gap-[167px]"
+      >
+        <img
+          class="relative w-[108.2px] h-[41px] object-cover cursor-pointer"
+          alt=""
+          src="/public/logosparrowvariant-2-1@2x.png"
+          id="logoSparrowVariant21"
+        />
+
+        <div
+          class="flex-1 shrink-0 flex flex-row items-center justify-end py-px px-0 gap-[25px]"
+        >
+          <div
+            class="shrink-0 flex flex-row items-center justify-center gap-[25px]"
+          >
+            <img
+              class="relative w-6 h-6 overflow-hidden shrink-0 object-cover cursor-pointer"
+              alt=""
+              src="/public/mdilinkedin@2x.png"
+              id="mdilinkedinIcon"
+            />
+
+            <img
+              class="relative w-6 h-6 overflow-hidden shrink-0 object-cover cursor-pointer"
+              alt=""
+              src="/public/icbaselinediscord@2x.png"
+              id="icbaselineDiscordIcon"
+            />
+
+            <div class="shrink-0 hidden flex-row items-center justify-start">
+              <img
+                class="relative w-[25px] h-[25px] object-cover"
+                alt=""
+                src="/public/vector@2x.png"
+              />
+            </div>
+            <div class="shrink-0 hidden flex-row items-start justify-start">
+              <img
+                class="relative w-6 h-6 overflow-hidden shrink-0 object-cover"
+                alt=""
+                src="/public/simpleiconsx@2x.png"
+              />
+            </div>
+            <img
+              class="relative w-[25px] h-[25px] overflow-hidden shrink-0 object-cover hidden"
+              alt=""
+              src="/public/mditwitch@2x.png"
+            />
+          </div>
+          <img
+            class="relative w-5 h-5 overflow-hidden shrink-0 object-cover cursor-pointer"
+            alt=""
+            src="/public/pajamastwitter@2x.png"
+            id="pajamastwitterIcon"
+          />
+
+          <div
+            class="shrink-0 flex flex-row items-start justify-start p-[3.5px]"
+          >
+            <img
+              class="relative w-[20.7px] h-5 object-cover"
+              alt=""
+              src="/public/vector@2x.png"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var logoSparrowVariant21 = document.getElementById("logoSparrowVariant21");
+      if (logoSparrowVariant21) {
+        logoSparrowVariant21.addEventListener("click", function () {
+          window.open("https://sparrowapp.dev/");
+        });
+      }
+      
+      var mdilinkedinIcon = document.getElementById("mdilinkedinIcon");
+      if (mdilinkedinIcon) {
+        mdilinkedinIcon.addEventListener("click", function () {
+          window.open("https://www.linkedin.com/showcase/sparrow-app/");
+        });
+      }
+      
+      var icbaselineDiscordIcon = document.getElementById("icbaselineDiscordIcon");
+      if (icbaselineDiscordIcon) {
+        icbaselineDiscordIcon.addEventListener("click", function () {
+          window.open("https://discord.gg/Ss93Kk4aBV");
+        });
+      }
+      
+      var pajamastwitterIcon = document.getElementById("pajamastwitterIcon");
+      if (pajamastwitterIcon) {
+        pajamastwitterIcon.addEventListener("click", function () {
+          window.open("https://twitter.com/sparrow__app");
+        });
+      }
+      </script>
+  </body>
+</html>
